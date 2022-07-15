@@ -29,6 +29,7 @@
         <div class="swiper-scrollbar"></div>
     </div>
 </div>
+<div>teste</div>
 @endsection
 @section('footer_scripts')
 <script>
