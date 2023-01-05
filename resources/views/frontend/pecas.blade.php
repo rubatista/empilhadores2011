@@ -133,6 +133,8 @@
 <div class="container-fluid container-lg pt-5 px-0">
   <div class="row m-0">
     <h3 class="big-title pb-5 text-uppercase">Peças</h3>
+    <h4 class="medium-title pb-5 text-uppercase p-0">Peças para empilhadores</h4>
+    <h4 class="medium-title pb-5 text-uppercase p-0">Acessórios para empilhadores</h4>
     <div class="col-12 col-lg-7 border-form form-mobile">
         @if(Session::has('success'))
             <div class="alert alert-success">
@@ -141,7 +143,7 @@
         @endif
       <form method="post" action="{{ route('contact') }}" class="px-3 px-lg-0">
         {{ csrf_field() }}
-        <h3 class="medium-title">Envie uma mensagem</h3>
+        <h3 class="medium-title">Deseja uma peça especifica?<br>Deixe aqui mensagem com o deseja!</h3>
             <div class="row">
                 <div class="col-12">
                     <div class="form-group py-1">
