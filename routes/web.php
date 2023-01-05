@@ -20,5 +20,8 @@ Route::get('/servicos', [FrontendController::class, 'services'])->name('services
 Route::get('/products', [FrontendController::class, 'products'])->name('products');
 Route::get('/products/{subcat}', [FrontendController::class, 'productsSubCategory'])->name('products_sub_category');
 Route::get('/product/{slug}', [FrontendController::class, 'product'])->name('product');
+Route::get('/pecas', [FrontendController::class, 'pecas'])->name('pecas');
 Route::get('/contacto', [FrontendController::class, 'contacto'])->name('contacto');
+
+// forms
 Route::post('/process/contacto', [FormsController::class, 'contact'])->name('contact');

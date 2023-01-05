@@ -18,6 +18,11 @@ class FrontendController extends Controller
         return view('frontend.contact');
     }
 
+    public function pecas()
+    {
+        return view('frontend.pecas');
+    }
+
     public function products()
     {
         $instock = ProductRepository::getProducts();

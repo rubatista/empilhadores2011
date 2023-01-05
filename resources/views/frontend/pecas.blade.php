@@ -1,11 +1,11 @@
 @extends('layout.app')
 @section('meta')
-    <title>Contactos - Empilhadores2011</title>
+    <title>Peças - Empilhadores2011</title>
     <meta name="description" content="Empilhadores2011 é uma empresa vocacionada para a venda de equipamentos novos ou usados e assistência técnica de empilhadores elétricos, gás e diesel, porta-paletes elétricos e manuais e stacker's." />
     <meta name="keywords" content="empilhadores2011, empilhadores 2011, empilhadores, baterias empilhadores, garfos empilhadores, porta-paletes, porta-paletes, stacker's, stacker, empilhadores porto, empilhadores maia, empilhadores portugal" />
     <meta name="author" content="empilhadores2011">
     <meta property="og:type" content="website" />
-    <meta property="og:title" content="Contactos - Empilhadores2011" />
+    <meta property="og:title" content="Peças - Empilhadores2011" />
     <meta property="og:description" content="Empilhadores2011 é uma empresa vocacionada para a venda de equipamentos novos ou usados e assistência técnica de empilhadores elétricos, gás e diesel, porta-paletes elétricos e manuais e stacker's." />
     <meta property="og:url" content="https://www.empilhadores2011.com/" />
     <meta property="og:site_name" content="Empilhadores2011" />
@@ -132,7 +132,7 @@
 @section('main-content')
 <div class="container-fluid container-lg pt-5 px-0">
   <div class="row m-0">
-    <h3 class="big-title pb-5 text-uppercase">Entrar em contacto</h3>
+    <h3 class="big-title pb-5 text-uppercase">Peças</h3>
     <div class="col-12 col-lg-7 border-form form-mobile">
         @if(Session::has('success'))
             <div class="alert alert-success">

@@ -46,7 +46,7 @@
                       <li><a class="dropdown-item" href="blog-home.html">Inspeções</a></li>
                   </ul>
               </li>
-              <li class="nav-item"><a class="nav-link" href="about.html">Peças</a></li>
+              <li class="nav-item"><a class="nav-link" href="{{ route('pecas') }}">Peças</a></li>
               <li class="nav-item"><a class="nav-link" href="{{ route('contacto') }}">Contactos</a></li>
           </ul>
       </div>
