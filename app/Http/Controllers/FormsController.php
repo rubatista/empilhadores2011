@@ -9,7 +9,7 @@ use Illuminate\Support\Facades\Mail;
 
 class FormsController extends Controller
 {
-    public function contact(Request $request)
+    public function formcontact(Request $request)
     {
         $request->validate([
             'name' => 'required',
@@ -23,7 +23,7 @@ class FormsController extends Controller
         return redirect()->back()->with(['success' => 'Obrigado por entrar em contacto conosco. Entraremos em contacto em breve.']);
     }
 
-    public function pecas(Request $request)
+    public function formpecas(Request $request)
     {
         $request->validate([
             'name' => 'required',

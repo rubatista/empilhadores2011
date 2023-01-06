@@ -24,5 +24,5 @@ Route::get('/pecas', [FrontendController::class, 'pecas'])->name('pecas');
 Route::get('/contacto', [FrontendController::class, 'contacto'])->name('contacto');
 
 // forms
-Route::post('/process/contacto', [FormsController::class, 'contact'])->name('contact');
-Route::post('/process/pecas', [FormsController::class, 'pecas'])->name('pecas');
+Route::post('/process/contacto', [FormsController::class, 'formcontact'])->name('formcontact');
+Route::post('/process/pecas', [FormsController::class, 'formpecas'])->name('formpecas');

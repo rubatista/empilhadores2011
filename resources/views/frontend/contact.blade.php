@@ -139,7 +139,7 @@
                 {{Session::get('success')}}
             </div>
         @endif
-      <form method="post" action="{{ route('contact') }}" class="px-3 px-lg-0">
+      <form method="post" action="{{ route('formcontact') }}" class="px-3 px-lg-0">
         {{ csrf_field() }}
         <h3 class="medium-title">Envie uma mensagem</h3>
             <div class="row">
