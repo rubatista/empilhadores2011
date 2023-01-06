@@ -148,7 +148,7 @@
                 {{Session::get('success')}}
             </div>
         @endif
-      <form method="post" action="{{ route('contact') }}" class="px-3 px-lg-0">
+      <form method="post" action="{{ route('pecas') }}" class="px-3 px-lg-0">
         {{ csrf_field() }}
         <h3 class="medium-title">Deseja uma peça especifica?<br>Deixe aqui mensagem com o deseja!</h3>
             <div class="row">
