@@ -98,12 +98,14 @@
         @foreach($instock as $stock)
           <div class="col-lg-4 mb-5">
               <div class="card h-100 shadow border-0">
-                  <img class="card-img-top" src="https://dummyimage.com/600x450/ced4da/6c757d" alt="{{ $stock->name }} - Empilhadores2011" />
+                <a class="text-decoration-none link-dark stretched-link" href="/product/{{ $stock->slug }}">
+                  <img class="card-img-top" src="/img/products/{{ $stock->slug }}/{{ $stock->slug }}-1.jpg" alt="{{ $stock->name }} - Empilhadores2011" />
                   <div class="card-body px-4 py-3">
                       <div class="badge bg-primary bg-gradient rounded-pill mb-2">{{ $stock->product_details[0]->condition }}</div>
-                      <a class="text-decoration-none link-dark stretched-link" href="#!"><h5 class="card-title mb-3">{{ $stock->name }}</h5></a>
+                      <h5 class="card-title mb-3">{{ $stock->name }}</h5>
                       <p class="card-text mb-0">{{ $stock->sub_category->name }} &middot; {{ $stock->product_details[0]->fuel }} &middot; {{ $stock->product_details[0]->rated_capacity }}</p>
                   </div>
+                </a>
               </div>
           </div>
         @endforeach
