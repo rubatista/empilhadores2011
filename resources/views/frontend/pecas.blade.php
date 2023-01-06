@@ -43,12 +43,6 @@
 .form-group{
     position: relative;
 }
-.map{
-    border-radius: 7px;
-    overflow: hidden;
-    filter: saturate(35%) brightness(90%) contrast(110%);
-    backface-visibility: hidden;
-}
 .form-input{
     -webkit-appearance: none;
     padding: 16px;
@@ -133,9 +127,22 @@
 <div class="container-fluid container-lg pt-5 px-0">
   <div class="row m-0">
     <h3 class="big-title pb-5 text-uppercase">Peças</h3>
-    <h4 class="medium-title pb-5 text-uppercase p-0">Peças para empilhadores</h4>
-    <h4 class="medium-title pb-5 text-uppercase p-0">Acessórios para empilhadores</h4>
-    <div class="col-12 col-lg-7 border-form form-mobile">
+    <h4 class="medium-title text-uppercase p-0">Peças para empilhadores</h4>
+    <p>- Baterias</p>
+    <p>- Garfos</p>
+    <p>- Pneus</p>
+    <p>- Peças Motor</p>
+    <p>- Placa Eletronica</p>
+    <p>- Rolamentos</p>
+    <p>- Rodas</p>
+    <p>- Correntes</p>
+    <p>- Filtros</p>
+    <h4 class="medium-title pt-5 text-uppercase p-0">Acessórios para empilhadores</h4>
+    <p>- Luzes</p>
+    <p>- Extensões de Garfos</p>
+    <p>- Bancos</p>
+    <p>- Alarmes marcha atrás</p>
+    <div class="col-12 col-lg-7 pt-5 border-form form-mobile">
         @if(Session::has('success'))
             <div class="alert alert-success">
                 {{Session::get('success')}}
@@ -197,12 +204,6 @@
                 <h3 class="medium-title">Visite-nos</h3>
                 <p class="info-text"><i class="fa-solid fa-location-dot"></i>  Rua Avelino Sousa Marques nº663<br> &nbsp; &nbsp;4475-460 Nogueira da Maia, Porto</p>
             </div>
-        </div>
-    </div>
-    <!--The div element for the map -->
-    <div id="map m-0" style="padding-left: 0 !important;padding-right: 0 !important; padding-top: 10% !important;">
-        <div class="map">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12000.700604475072!2d-8.5855377!3d41.2397425!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xcd12e0c891dbc0f8!2sEmpilhadores%202011!5e0!3m2!1spt-PT!2spt!4v1671539713857!5m2!1spt-PT!2spt" width="100%" height="650" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </div>
     </div>
   </div>

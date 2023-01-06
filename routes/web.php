@@ -25,3 +25,4 @@ Route::get('/contacto', [FrontendController::class, 'contacto'])->name('contacto
 
 // forms
 Route::post('/process/contacto', [FormsController::class, 'contact'])->name('contact');
+Route::post('/process/pecas', [FormsController::class, 'pecas'])->name('contact');
