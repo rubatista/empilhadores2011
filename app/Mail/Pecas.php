@@ -47,7 +47,7 @@ class Pecas extends Mailable
     public function content()
     {
         return new Content(
-            view: 'view.name',
+            view: 'emails.pecas',
         );
     }
 
@@ -58,8 +58,6 @@ class Pecas extends Mailable
      */
     public function attachments()
     {
-        return new Content(
-            view: 'emails.pecas',
-        );
+        return [];
     }
 }
